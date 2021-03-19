@@ -7,17 +7,10 @@ You can edit this file as you like.
 , backend =
     "purerl"
 , dependencies =
-    [ "effect"
-    , "erl-atom"
-    , "erl-lists"
-    , "erl-modules"
+    [ "prelude"
+    , "maybe"
+    , "effect"
     , "erl-process"
-    , "erl-tuples"
-    , "console"
-    , "debug"
-    , "erl-test-eunit"
-    , "profunctor-lenses"
-    , "psci-support"
     ]
 , packages =
     ./packages.dhall
